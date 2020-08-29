@@ -1,0 +1,4 @@
+get_source_github_url : https://github.com/Priyanks27/infinityGeneric.git
+get_target_github_url : https://github.com/Priyanks27/infinityGCP.git
+get_targetcloudprovider :  google
+ is_deploy :  trueSuccess : Staging and Target area createdSuccess : Git hub fetch URL SuccessSuccess : Scanning dependencies doneSuccess : Rules checked against dependenciesSuccess : Unsupported dependencies checkedSuccess : Transformation done by copying src to template folderSuccess : Google dependency checked for ServletInitalizerSuccess : Code pushed to Git, check Code Build pipeline!

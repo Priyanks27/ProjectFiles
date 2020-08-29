@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "bf822371-3937-49f8-b40c-8c09b41ac73e",
+		"name": "CodeTransformationAutomation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityGeneric.git&targetcloudprovider=google&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityGCP.git",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numberOfLines\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityGeneric.git&targetcloudprovider=google&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityGCP.git",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transform"
+					],
+					"query": [
+						{
+							"key": "sourcegithuburl",
+							"value": "https://github.com/Priyanks27/infinityGeneric.git"
+						},
+						{
+							"key": "targetcloudprovider",
+							"value": "google"
+						},
+						{
+							"key": "isDeploy",
+							"value": "true"
+						},
+						{
+							"key": "targetgithuburl",
+							"value": "https://github.com/Priyanks27/infinityGCP.git"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityCassandra.git&targetcloudprovider=google&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityGCP.git",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numberOfLines\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityCassandra.git&targetcloudprovider=google&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityGCP.git",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transform"
+					],
+					"query": [
+						{
+							"key": "sourcegithuburl",
+							"value": "https://github.com/Priyanks27/infinityCassandra.git"
+						},
+						{
+							"key": "targetcloudprovider",
+							"value": "google"
+						},
+						{
+							"key": "isDeploy",
+							"value": "true"
+						},
+						{
+							"key": "targetgithuburl",
+							"value": "https://github.com/Priyanks27/infinityGCP.git"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityCassandra.git&targetcloudprovider=aws&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityAWS.git",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numberOfLines\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/transform?sourcegithuburl=https://github.com/Priyanks27/infinityCassandra.git&targetcloudprovider=aws&isDeploy=true&targetgithuburl=https://github.com/Priyanks27/infinityAWS.git",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"transform"
+					],
+					"query": [
+						{
+							"key": "sourcegithuburl",
+							"value": "https://github.com/Priyanks27/infinityCassandra.git"
+						},
+						{
+							"key": "targetcloudprovider",
+							"value": "aws"
+						},
+						{
+							"key": "isDeploy",
+							"value": "true"
+						},
+						{
+							"key": "targetgithuburl",
+							"value": "https://github.com/Priyanks27/infinityAWS.git"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

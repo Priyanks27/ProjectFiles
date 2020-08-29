@@ -1,0 +1,4 @@
+{
+    "org.ehcache": "ehcache",
+    "com.google.code.gson": "gson"
+}

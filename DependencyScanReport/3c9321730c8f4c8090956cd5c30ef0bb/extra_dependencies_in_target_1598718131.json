@@ -1,0 +1,10 @@
+{
+    "com.googlecode.objectify": "objectify",
+    "com.h2database": "h2",
+    "com.google.appengine": "appengine-endpoints",
+    "org.apache.maven.plugins": "maven-site-plugin",
+    "com.google.guava": "guava",
+    "org.ehcache": "ehcache",
+    "io.springfox": "springfox-swagger-ui",
+    "com.google.code.gson": "gson"
+}

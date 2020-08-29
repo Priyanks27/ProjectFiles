@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "36205206-b783-4552-a735-05671c85239e",
+		"name": "FlashSaleOrchestration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8282/flashsale/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"inventoryModel\":  {\r\n            \"id\": 4,\r\n            \"category\": \"Sportswear\",\r\n            \"inventoryName\": \"Shoes\",\r\n            \"inventoryCount\": 100,\r\n            \"priceModel\": \"test\"\r\n        },\r\n  \"amountToBuy\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8282/flashsale/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"flashsale",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8282/flashsale/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8282/flashsale/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"flashsale",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

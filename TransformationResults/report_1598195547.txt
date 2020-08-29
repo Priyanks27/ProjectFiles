@@ -1,0 +1,4 @@
+get_source_github_url : https://github.com/Priyanks27/infinityGeneric.git
+get_target_github_url : https://github.com/Priyanks27/infinityGCP.git
+get_targetcloudprovider :  google
+ is_deploy :  true

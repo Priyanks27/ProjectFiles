@@ -1,0 +1,8 @@
+{
+    "com.googlecode.objectify": "objectify",
+    "org.ehcache": "ehcache",
+    "org.apache.maven.plugins": "maven-site-plugin",
+    "com.google.code.gson": "gson",
+    "com.google.guava": "guava",
+    "com.google.appengine": "appengine-endpoints"
+}

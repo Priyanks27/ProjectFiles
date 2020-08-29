@@ -1,0 +1,12 @@
+get_source_github_url : https://github.com/Priyanks27/infinityCassandra.gitget_target_github_url : https://github.com/Priyanks27/infinityAWS.gitget_targetcloudprovider :  awsis_deploy :  trueSuccess : Staging and Target area created
+Success : Git hub fetch URL Success
+Success : Scanning dependencies done
+Success : Rules checked against dependencies
+Success : Unsupported dependencies checked
+Success : Transformation done by copying src to template folder
+Success : Google dependency checked for ServletInitalizer
+Success : Code pushed to Git, check Code Build pipeline!
+Success : Staging and Target area created
+Success : Git hub fetch URL Success
+Success : Scanning dependencies done
+Success : Rules checked against dependencies

@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "e0700b47-73b6-4890-959e-1191c225bbc2",
+		"name": "Production_InventoryDataCreation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Sportswear\",\r\n  \"inventoryName\": \"Shoes\",\r\n  \"inventoryCount\": \"100\",\r\n  \"priceModel\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+					"protocol": "https",
+					"host": [
+						"inventory-service-dot-infinity-285116",
+						"ew",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Sportswear\",\r\n  \"inventoryName\": \"shirts\",\r\n  \"inventoryCount\": \"100\",\r\n  \"priceModel\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+					"protocol": "https",
+					"host": [
+						"inventory-service-dot-infinity-285116",
+						"ew",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Sportswear\",\r\n  \"inventoryName\": \"coat\",\r\n  \"inventoryCount\": \"100\",\r\n  \"priceModel\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+					"protocol": "https",
+					"host": [
+						"inventory-service-dot-infinity-285116",
+						"ew",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Sportswear\",\r\n  \"inventoryName\": \"jacket\",\r\n  \"inventoryCount\": \"100\",\r\n  \"priceModel\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://inventory-service-dot-infinity-285116.ew.r.appspot.com/inventory",
+					"protocol": "https",
+					"host": [
+						"inventory-service-dot-infinity-285116",
+						"ew",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

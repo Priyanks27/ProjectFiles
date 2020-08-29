@@ -1,0 +1,6 @@
+{
+    "org.apache.maven.plugins": "maven-site-plugin",
+    "com.google.appengine": "appengine-endpoints",
+    "com.google.guava": "guava",
+    "com.googlecode.objectify": "objectify"
+}
